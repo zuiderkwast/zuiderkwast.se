@@ -1,0 +1,66 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: serif;
+}
+
+h1 { font-size: 180% }
+h2 { font-size: 150% }
+h3 { font-size: 130% }
+
+p { margin: 1em 0 }
+
+table {
+	border-collapse: collapse;
+	border: solid 1px #ccc;
+	border-radius: 3px;
+	margin: 1em 2em;
+	font-size: 80%;
+}
+td, th {
+	padding: 0.5ex 1ex;
+	border: solid 1px #ccc;
+	border-radius: 2px;
+}
+
+nav {
+	background-color: #eee;
+	padding: 1ex;
+}
+
+nav ol {
+	list-style-type: none;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+nav ol li {
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+
+nav ol li a {
+	display: inline-block;
+	padding: 1em;
+	border: solid 1px transparent;
+}
+
+nav ol li a:hover {
+	background-color: #eef;
+	border-top-color: blue;
+	border-bottom-color: blue;
+}
+
+main {
+	margin: 1ex;
+}
+
+footer {
+	background-color: #eee;
+	padding: 1ex;
+}
