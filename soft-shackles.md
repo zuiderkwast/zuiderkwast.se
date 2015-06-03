@@ -1,15 +1,15 @@
 Soft shackles
 =============
 
-Soft shackles is a lightweight alternative to steel and aluminium schackles and carabiners. First used in sailing, emerging used in slacklining and other sports. Typically, they are made of [Dyneem®/Amsteel/UHMWPE fiber](uhmwpe-fiber.md) as it is the world's strongest fiber.
+Soft shackles are a lightweight alternative to steel and aluminium schackles and carabiners. While mainly used in sailing, they are gaining popularity in slacklining and they have potential use in other sports and activities. Typically, they are made of [Dyneema/UHMWPE fiber](uhmwpe-fiber.md).
 
-Benefits compared to steel counterpart:
+Benefits compared to the steel counterpart:
 
-  * Strong – comparable to steel of the same width
-  * Light – strength-to-weight ratio more than ten times that of steel
-  * Abrasion-resistant, very low friction, UV resistant and all the other benefits of the [UHMWPE fiber](uhmwpe-fiber.md)
-  * Easy to make yourself
-  * Cheap ̣– if you make them yourself
+  * Strong – comparable to steel at the same thickness;
+  * light – strength-to-weight ratio more than ten times that of steel;
+  * abrasion-resistant, very low friction, UV resistant and all the other benefits of the [UHMWPE fiber](uhmwpe-fiber.md);
+  * easy to make yourself;
+  * cheap – if you *make them yourself*.
 
 *Note:* Don't use shoft shackles in the presense of sharp edges as these can cut through the material.
 
@@ -17,6 +17,10 @@ How to make soft shackles
 -------------------------
 
 It is easy to make soft shackles and there are many resources online. As a starting point I recommend the soft shackle articles at [L-36.com](http://l-36.com/soft_shackles.php?menu=4). You don't even need any special tools to make shoft shackles. The interior of a pen can be used as a splicing tool.
+
+![Soft shackles and tools](img/soft-shackles.jpg)
+
+Above: Soft shackles in various lengths and thicknesses with a splicing tools for each of the line thicknesses.
 
 There are several variations of the design. My favourite variant is the *High strength soft shackle* which involves a [button knot](http://l-36.com/button_knot_top.php) (credited to Brion Toss) although different variations have their pros and cons. Accordning to tests at L-36.com, the strength of the *high strength* variant has 230% the strength of the line used while "conventional" soft shackles with a diamond knot have 170% the strength of the line.
 
