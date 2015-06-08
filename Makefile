@@ -59,8 +59,8 @@ endef
 # Markdown file as a parameter
 define footer
 <footer>
-$(shell git log -1 --format="<p>Written %ai by %an <small>(%s)</small>.</p>" $1)
-$(shell git log --skip=1 --format="<p>Edited %ai by %an <small>(%s)</small>.</p>" $1)
+$(shell git log --reverse --format="<p>Written %ai by %an <small>(%s)</small>.</p>" $1 | head -1)
+$(shell git log --reverse --format="<p>Edited %ai by %an <small>(%s)</small>.</p>" $1 | tail -n +2)
 <p><a href="$1">Source code of this article in Markdown format</a></p>
 <p>$(cc-by-sa)</p>
 </footer>
