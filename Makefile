@@ -46,21 +46,21 @@ define header
 <html>
 <head>
 	<meta charset="utf-8">
-    <title>$1</title>
+	<title>$1</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 endef
 
 define cc-by-sa
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons-license" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a> The text and images are available under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons-license" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a> The text and images are available under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International Public License</a>.
 endef
 
 # Markdown file as a parameter
 define footer
 <footer>
-$(shell git log -1 --format="<p>Written %ai by %an <small>(%s)</small>.</p>" $1)
-$(shell git log --skip=1 --format="<p>Edited %ai by %an <small>(%s)</small>.</p>" $1)
+$(shell git log --reverse --format="<p>Written %ai by %an <small>(%s)</small>.</p>" $1 | head -1)
+$(shell git log --reverse --format="<p>Edited %ai by %an <small>(%s)</small>.</p>" $1 | tail -n +2)
 <p><a href="$1">Source code of this article in Markdown format</a></p>
 <p>$(cc-by-sa)</p>
 </footer>

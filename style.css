@@ -16,14 +16,12 @@ p { margin: 1em 0 }
 table {
 	border-collapse: collapse;
 	border: solid 1px #ccc;
-	border-radius: 3px;
 	margin: 1em 2em;
 	font-size: 80%;
 }
 td, th {
 	padding: 0.5ex 1ex;
 	border: solid 1px #ccc;
-	border-radius: 2px;
 }
 
 nav {
@@ -44,20 +42,41 @@ nav ol li {
 	display: inline-block;
 }
 
-nav ol li a {
+nav ol li:first-child::before {
+	content: 'V';
+	color: #333;
+	background-color: #fff;
+	border-radius: 2ex;
+	border: solid 1px #666;
+	padding: 0.2ex 0.4ex;
+	line-height: 0.9;
+	font-family: sans-serif;
+	font-weight: bold;
 	display: inline-block;
-	padding: 1em;
-	border: solid 1px transparent;
+	font-size: 2em;
+	vertical-align: bottom;
+	margin: 1px;
 }
 
+nav ol li a {
+	display: inline-block;
+	padding: 1ex 1em;
+	border: solid 1px #ccc;
+	margin: 1px;
+	background-color: #ddd
+}
+nav ol li:first-child a {
+	margin-left: 1ex;
+}
+
+nav ol li a:focus,
 nav ol li a:hover {
-	background-color: #eef;
-	border-top-color: blue;
-	border-bottom-color: blue;
+	background-color: #ccc;
+	box-shadow: 0 0 15px #fff;
 }
 
 main {
-	margin: 1ex;
+	margin: 2ex;
 }
 
 footer {
