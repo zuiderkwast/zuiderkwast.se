@@ -3,7 +3,6 @@ UHMWPE trousers
 
 Annoyed by the fact that my jeans never last longer than a year due to normal use including slacklining, climbing, cycling and other activities, I started thinking in terms of a way to solve this once and for all. Following my recent discovery of Dyneema/UHMWPE fiber I decided to make a pair of trousers out of this material.
 
-![UHMWPE trousers, front](img/uhmwpe-trousers-front.jpg)
 ![UHMWPE trousers, close-up](img/uhmwpe-trousers-shadow.jpg)
 
 The fabric I used was a 440 denier, 90 grams per meter, white fabric made of [UHMWPE fiber](uhmwpe-fiber.md). I couldn't find any other colour so I had to accept the idea of wearing white trousers.

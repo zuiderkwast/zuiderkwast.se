@@ -1,6 +1,17 @@
 The UHMWPE fiber
 ================
 
+This is more often called Dyneema. During the spring of 2015 I became interested in this material and started to experiment with it. This is what I did:
+
+* [Soft shackles](soft-shackles.md)
+* [Dyneema trousers](uhmwpe-trousers.md)
+
+![Dyneema fabrics](img/uhmwpe-fabrics-440d-and-1600d.jpg)
+![Dyneema sewing thread](img/uhmwpe-thread-20s.jpg)
+
+About the material
+------------------
+
 The *UHMWPE fiber*, more commonly known by the names *Dyneema* and *Spectra*, is one of the strongest fibers in the world. UHMWPE stands for ultra-high-molecular-weight polyethylene. UHMWPE in itself is not that strong, but when spun to fibers, the molecules are aligned. Thus it is important to distinguish *UHMWPE fibers* from solid *UHMWPE* plastic.
 
 According to the [Wikipedia article](http://en.wikipedia.org/wiki/Ultra-high-molecular-weight_polyethylene#Fiber), the yield strength is comparable to that of high-strength steels while being lighter that water. That gives a strength-to-weight ratio of 8–15 times higher than that of steel and 40% higher than that of aramid.
