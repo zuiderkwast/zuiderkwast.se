@@ -13,9 +13,9 @@ The Utby nature area is located between the suburbs Utby and Bergsjön. This is 
 Overview map:
 
 <iframe src="http://kartor.eniro.se/m/Ilc9f?embed=true&center=57.744571918686304,12.064404487609863&zoom=15&layer=hybrid"
- width="600" height="450" frameborder="0" style="border:0"></iframe>
-
-<noframes><p><a href="http://kartor.eniro.se/m/Ilc9f">Go to map at Eniro</a></p></noframes>
+ width="600" height="450" frameborder="0" style="border:0">
+<p><a href="http://kartor.eniro.se/m/Ilc9f">Go to map at Eniro</a></p>
+</iframe>
 
 Lines:
 
