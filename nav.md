@@ -1,4 +1,3 @@
 1. [Home](index.md)
-2. [The UHMWPE fiber](uhmwpe-fiber.md)
-3. [Soft shackles](soft-shackles.md)
-4. [UHMWPE trousers](uhmwpe-trousers.md)
+2. [Highlines in Gothenburg](gothenburg-highlines.md)
+2. [Dyneema stuff](uhmwpe-fiber.md)
