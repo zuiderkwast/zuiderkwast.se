@@ -30,6 +30,11 @@ a:link,
 a:visited { text-decoration: none; }
 a:hover   { text-decoration: underline; }
 
+footer a:link,    nav a:link    { color: #77f; }
+footer a:visited, nav a:visited { color: #f7f; }
+
+nav a:hover { background-color: #333; }
+
 /* navigation */
 
 nav {
@@ -54,23 +59,21 @@ nav ol li a {
 	padding: 1ex;
 }
 
-nav a:link {
-	color: #77f;
-}
-nav a:visited {
-	color: #f7f;
-}
-nav a:hover {
-	background-color: #333;
-}
-
 /* main content area */
 
 main {
 	margin: 2ex;
 }
 
+/* footer */
+
 footer {
-	background-color: #eee;
+	background-color: #000;
+	color: #777;
 	padding: 1ex;
+}
+
+footer a img {
+	border: solid 2px #777;
+	border-radius: 4px
 }
