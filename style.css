@@ -24,9 +24,16 @@ td, th {
 	border: solid 1px #ccc;
 }
 
+a:link    { color: blue; }
+a:visited { color: purple; }
+a:link,
+a:visited { text-decoration: none; }
+a:hover   { text-decoration: underline; }
+
+/* navigation */
+
 nav {
-	background-color: #eee;
-	padding: 1ex;
+	background-color: #000;
 }
 
 nav ol {
@@ -42,38 +49,22 @@ nav ol li {
 	display: inline-block;
 }
 
-nav ol li:first-child::before {
-	content: 'V';
-	color: #333;
-	background-color: #fff;
-	border-radius: 2ex;
-	border: solid 1px #666;
-	padding: 0.2ex 0.4ex;
-	line-height: 0.9;
-	font-family: sans-serif;
-	font-weight: bold;
-	display: inline-block;
-	font-size: 2em;
-	vertical-align: bottom;
-	margin: 1px;
-}
-
 nav ol li a {
 	display: inline-block;
-	padding: 1ex 1em;
-	border: solid 1px #ccc;
-	margin: 1px;
-	background-color: #ddd
-}
-nav ol li:first-child a {
-	margin-left: 1ex;
+	padding: 1ex;
 }
 
-nav ol li a:focus,
-nav ol li a:hover {
-	background-color: #ccc;
-	box-shadow: 0 0 15px #fff;
+nav a:link {
+	color: #77f;
 }
+nav a:visited {
+	color: #f7f;
+}
+nav a:hover {
+	background-color: #333;
+}
+
+/* main content area */
 
 main {
 	margin: 2ex;
