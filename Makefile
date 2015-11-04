@@ -1,13 +1,16 @@
-.PHONY: all pages clean
+.PHONY: all pages clean index.md
+
+SITE_NAME=zuiderkwast.se
+START_PAGE_NAME=Home
 
 HTML=$(patsubst %.md,%.html,$(filter-out nav.md,$(wildcard *.md)))
 
 all: pages
 
-pages: $(HTML)
+pages: $(HTML) index.html
 
 clean:
-	rm -rf *.html tn
+	rm -rf *.html tn index.md
 
 %.html: %.md nav.md
 	@make --no-print-directory thumbs MD=$<
@@ -20,6 +23,32 @@ clean:
 	@$(call md,$<) >> $@~
 	@echo '</main>' >> $@~
 	@$(call echo,$(call footer,$<)) >> $@~
+	@printf '%s\n' '</article>' '</body>' '</html>' >> $@~
+	@mv $@~ $@
+
+index.md:
+	@printf '%s\n' \
+	 'zuiderkwast.se' \
+	 '==============' \
+	 'Last updates:' '' > $@~
+	@git log \
+	 --pretty=format:'* **%s**<br/><small>%ai</small>' \
+	 --diff-filter=AM --name-status --no-merges \
+	 | grep '^\*\|\.md$$' | grep -v nav.md$$ \
+	 | perl -pe 's/^A\s*(.*?).md$$/  * **[$$1]($$1.md)** (new article)/; s/^M\s*(.*?).md$$/  * [$$1]($$1.md) (edited)/' \
+	 >> $@~
+	@mv $@~ $@
+
+index.html: index.md
+	@echo generating $@
+	@$(call echo,$(call header,$(START_PAGE_NAME))) > $@~
+	@echo '<nav>' >> $@~
+	@$(call md,nav.md) >> $@~
+	@echo '</nav>' >> $@~
+	@printf '%s\n' '<article>' '<main>' >> $@~
+	@$(call md,$<) >> $@~
+	@echo '</main>' >> $@~
+	@$(call echo,<footer><p>$(cc-by-sa)</p></footer>) >> $@~
 	@printf '%s\n' '</article>' '</body>' '</html>' >> $@~
 	@mv $@~ $@
 
@@ -46,7 +75,7 @@ define header
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>$1</title>
+	<title>$1 - $(SITE_NAME)</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>

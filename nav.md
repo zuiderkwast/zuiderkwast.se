@@ -1,3 +1,4 @@
-1. [Home](index.md)
-2. [Highlines in Gothenburg](gothenburg-highlines.md)
-2. [Dyneema stuff](uhmwpe-fiber.md)
+1. [zuiderkwast.se](index.md)
+2. [About](about.md)
+3. [Highlines in Gothenburg](gothenburg-highlines.md)
+4. [UHMWPE](uhmwpe-fiber.md)
