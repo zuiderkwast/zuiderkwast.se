@@ -1,13 +1,12 @@
 Soft shackles
 =============
 
-Soft shackles are a lightweight alternative to steel and aluminium schackles and carabiners. While mainly used in sailing, they are gaining popularity in slacklining and they have potential use in other sports and activities. Typically, they are made of [Dyneema/UHMWPE fiber](uhmwpe-fiber.md).
+In 2015 I started to make soft shackles. They are a lightweight alternative to steel and aluminium shackles and carabiners. While mainly used in sailing, they are gaining popularity in slacklining and they have potential use in other sports and activities. Typically, they are made of [UHMWPE rope](uhmwpe-fiber.md).
 
 Benefits compared to the steel counterpart:
 
   * Strong – comparable to steel at the same thickness;
   * light – strength-to-weight ratio more than ten times that of steel;
-  * abrasion-resistant, very low friction, UV resistant and all the other benefits of the [UHMWPE fiber](uhmwpe-fiber.md);
   * easy to make yourself;
   * cheap – if you *make them yourself*.
 
@@ -18,11 +17,15 @@ How to make soft shackles
 
 It is easy to make soft shackles and there are many resources online. As a starting point I recommend the soft shackle articles at [L-36.com](http://l-36.com/soft_shackles.php?menu=4). You don't even need any special tools to make shoft shackles. The interior of a pen can be used as a splicing tool.
 
+After talking to Jerry Miszewski who has made tests on soft shackles, a learned that it is very important to *tighten the knot very hard*, especially the button knot. Otherwise the button knot can invert when the soft shackle is loaded. The diamond knot will not invert but it can wander out along the tails. Leaving long tails outside the diamond knot makes it safer. I have tightened the knots of my soft shackles using a 9:1 pulley system.
+
 ![Soft shackles and tools](img/soft-shackles.jpg)
 
-Above: Soft shackles in various lengths and thicknesses with a splicing tools for each of the line thicknesses.
+Above: Soft shackles in various lengths and thicknesses with simple splicing tools for each of the line thicknesses.
 
-There are several variations of the design. My favourite variant is the *High strength soft shackle* which involves a [button knot](http://l-36.com/button_knot_top.php) (credited to Brion Toss) although different variations have their pros and cons. Accordning to tests at L-36.com, the strength of the *high strength* variant has 230% the strength of the line used while "conventional" soft shackles with a diamond knot have 170% the strength of the line.
+There are several variations of the design. My favourite variant is the *High strength soft shackle* which involves a [button knot](http://l-36.com/button_knot_top.php) (credited to Brion Toss) although different variations have their pros and cons. Accordning to tests at L-36.com, the strength of the *high strength* variant has 230% the strength of the line used while "conventional" soft shackles with a diamond knot have ~170% the strength of the line.
+
+The table below contains approximate values. The strength can vary between different types of UHMWPE rope.
 
 <table>
 <thead>
@@ -38,7 +41,6 @@ There are several variations of the design. My favourite variant is the *High st
 </tbody>
 </table>
 
-The above table contains approximate values. The strength can vary between different types of Dyneema line. Dyneema line can be bought in sailing shops and e-stores.
 
 Other resources
 ---------------
