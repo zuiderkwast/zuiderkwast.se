@@ -12,15 +12,15 @@ The Utby nature area is located between the suburbs Utby and Bergsjön. This is 
 
 Overview map:
 
-<iframe src="http://kartor.eniro.se/m/Ilc9f?embed=true&center=57.744571918686304,12.064404487609863&zoom=15&layer=hybrid"
- width="600" height="450" frameborder="0" style="border:0">
-<p><a href="http://kartor.eniro.se/m/Ilc9f">Go to map at Eniro</a></p>
-</iframe>
+![Highlines in Utby and Fjällbo](img/gothenburg-highlines-map.png)
+
+* [OpenStreetMap](https://www.openstreetmap.org/#map=16/57.7457/12.0649&layers=N)
 
 Lines:
 
-* [Gone With the Wind](gone-with-the-wind.md), 22m
+* [Gone With the Wind](gone-with-the-wind.md), 22m (the one not near the other three)
 * [Don Genaro](don-genaro.md), 50m
+* Mittemellan, 60?
 * [Forever Young](forever-young.md), 67m
 
 Directions: You can take bus 58 to Ungmästaregatan or bus 519 to Frimästaregatan. Both these buses leave from the central station.
