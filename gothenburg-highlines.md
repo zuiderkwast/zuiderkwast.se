@@ -1,9 +1,7 @@
 Highlines in Gothenburg
 =======================
 
-This is a small guide to the highlines in Gothenburg.
-
-To get in touch with the local slackline community, find us in our Facebook group [Slacklife Göteborg](https://www.facebook.com/groups/215519055284206/).
+This is a guide to the highlines in Gothenburg, Sweden.
 
 Utby
 ----
@@ -29,8 +27,10 @@ By car: Parking is best done on the street Kanngjutaregatan or on Gärdsåsgatan
 
 In May 2015 we had a highline meeting here. Martin Borgvall took some [photos that are available on his website](http://www.illbattingbild.com/highline).
 
-Gothia Towers
--------------
+One-time lines
+--------------
+
+### Gothia Towers
 
 In 2014 there was a 25m/60m line rigged between the hotel towers and walked by Stefan Drouget, Olle Romberg and Petter Edderkopp.
 
@@ -44,8 +44,15 @@ There are a few videos from this event:
 * [Stefan Drouget's walk, from chest-mounted camera](https://www.youtube.com/embed/e_wk2X3J2s0) (YouTube)
 * [Stefan Drouget's walk, from below](https://www.youtube.com/watch?v=eU9BlVg9tVI) (YouTube)
 
-Götaplatsen
------------
+### Götaplatsen
 
 In 2013 Faith Dickey did an attempt to walk a 100+ meters highline over Götaplatsen. This was a one-time event sponsored by Volvo.
 
+Contact
+-------
+
+I'm one of the locals and the maintainer of this page. Feel free to contact me by email on *viktor @ (the domain of this website)*.
+
+The Facebook group [Slacklife Göteborg](https://www.facebook.com/groups/215519055284206/) used to be very active but less so now.
+
+Every year since 2015, in May, we have the [Gothenburg Highline Meeting](http://www.gohm.se/). Meet us there!
