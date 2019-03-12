@@ -1,24 +1,31 @@
-.PHONY: all pages clean index.md
+.PHONY: all pages clean changelog.md
 
 SITE_NAME=zuiderkwast.se
-START_PAGE_NAME=Home
+CHANGELOG_PAGE_NAME=Change log
 
 HTML=$(patsubst %.md,%.html,$(filter-out nav.md,$(wildcard *.md)))
 
 all: pages
 
-pages: $(HTML) index.html
+pages: $(HTML) changelog.html
 
 clean:
-	rm -rf *.html tn index.md
+	rm -rf *.html tn changelog.md
 
-%.html: %.md nav.md
+index.html: index.md Makefile
 	@make --no-print-directory thumbs MD=$<
 	@echo generating $@
 	@$(call echo,$(call header,$(shell head -1 $<))) > $@~
-	@echo '<nav>' >> $@~
-	@$(call md,nav.md) >> $@~
-	@echo '</nav>' >> $@~
+	@printf '%s\n' '<article>' '<main>' >> $@~
+	@$(call md,$<) >> $@~
+	@echo '</main>' >> $@~
+	@printf '%s\n' '</article>' '</body>' '</html>' >> $@~
+	@mv $@~ $@
+
+%.html: %.md Makefile
+	@make --no-print-directory thumbs MD=$<
+	@echo generating $@
+	@$(call echo,$(call header,$(shell head -1 $<))) > $@~
 	@printf '%s\n' '<article>' '<main>' >> $@~
 	@$(call md,$<) >> $@~
 	@echo '</main>' >> $@~
@@ -26,7 +33,12 @@ clean:
 	@printf '%s\n' '</article>' '</body>' '</html>' >> $@~
 	@mv $@~ $@
 
-index.md:
+# Navigation, was before <article> above
+#@echo '<nav>' >> $@~
+#@$(call md,nav.md) >> $@~
+#@echo '</nav>' >> $@~
+
+changelog.md:
 	@printf '%s\n' \
 	 'zuiderkwast.se' \
 	 '==============' \
@@ -39,9 +51,9 @@ index.md:
 	 >> $@~
 	@mv $@~ $@
 
-index.html: index.md
+changelog.html: changelog.md
 	@echo generating $@
-	@$(call echo,$(call header,$(START_PAGE_NAME))) > $@~
+	@$(call echo,$(call header,$(CHANGELOG_PAGE_NAME))) > $@~
 	@echo '<nav>' >> $@~
 	@$(call md,nav.md) >> $@~
 	@echo '</nav>' >> $@~
@@ -90,10 +102,13 @@ define footer
 <footer>
 $(shell git log --reverse --format="<p>Written %ai by %an <small>(%s)</small>.</p>" $1 | head -1)
 $(shell git log --reverse --format="<p>Edited %ai by %an <small>(%s)</small>.</p>" $1 | tail -n +2)
-<p><a href="$1">Source code of this article in Markdown format</a></p>
 <p>$(cc-by-sa)</p>
 </footer>
 endef
+
+# Link to md file, removed. Was between Edited and CC-BY-SA.
+#<p><a href="$1">Source code of this article in Markdown format</a></p>
+
 
 # thumbs target, defined only when MD is defined to a markdown filename
 ifdef MD
@@ -112,6 +127,6 @@ tn:
 	@mkdir -p tn
 
 tn/%: img/% tn
-	convert $< -resize 400x400 $@
+	convert $< -resize 600x600 $@
 
 endif
